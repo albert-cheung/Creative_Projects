@@ -1,7 +1,19 @@
 //mouth
 color([1,0,0]) {
 
-//
+
+translate([0,5,50]) {
+
+}
+
+//nose
+
+//left eye
+translate([0,5,35]) {
+cube([18,4,1],center=false);
+}
+
+//right eye
 translate([0,11,35]) {
 cube([18,4,1],center=false);
 }
